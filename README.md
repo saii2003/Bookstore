@@ -34,14 +34,14 @@ mem_update.aspx：修改會員資料頁面
 mem_updateOK.aspx：修改成功頁面
 
 <pre><code>### 管理者頁面/admin</code></pre>		
-admin_OrderSel.aspx			
-admin_add.aspx			
-admin_adminSel.aspx			
-admin_bookadd.aspx			
-admin_bookinquire.aspx			
-admin_login.aspx			
-admin_mem.aspx			
-admin_message.aspx			
-admin_messageSel.aspx			
-index.aspx		
+OrderSel.aspx	：訂單		
+add.aspx：			
+adminSel.aspx：			
+bookadd.aspx：		
+bookinquire.aspx：			
+login.aspx：			
+mem.aspx：			
+message.aspx：			
+messageSel.aspx：			
+index.aspx：		
 
