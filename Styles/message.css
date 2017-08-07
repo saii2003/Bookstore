@@ -1,0 +1,54 @@
+﻿.message
+        {
+            font-family: 微軟正黑體;
+            color: #666666;
+            text-align: left;
+            width: 800px;
+
+        }
+        #center
+        {
+            margin-top: 20px;
+        }
+        .title
+        {
+            color: #333333;
+            font-size: 18px;
+            background-color: #F0F8FF;
+        }
+        .style1
+        {
+            background-color: #F7F7F7;
+        }
+        .title
+        {
+            padding-top: 5px;
+            padding-bottom:5px;
+        }
+     
+        .title
+        {
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #CCCCCC;
+        }
+        .message
+        {
+        	margin: 0px auto;
+        }
+
+.title
+{
+    font-family: 微軟正黑體;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #6383BA;
+    line-height: 30px;
+}
+
+.style1
+{
+    background-color: #FFFFFF;
+
+}

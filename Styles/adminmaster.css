@@ -1,0 +1,194 @@
+﻿body 
+{
+   
+}
+#body
+{
+    margin:0px auto;
+    width: 1000px;
+    text-align: left;
+}
+#title1
+{
+    font-family: 微軟正黑體;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 900;
+    background-color: #4A6B93;
+    padding-top: 10px;
+    padding-left:20px;
+    padding-bottom: 10px;
+}
+#content
+{
+    margin-top: 15px;
+    }
+#body
+{
+    border: 2px solid #5988B4;
+}
+#left
+{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+#right
+{
+    float: left;
+    width: 750px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+#footer
+{
+    clear: both;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#footer
+{
+    background-color: #4A6B93;
+}
+#footer
+{
+    font-family: 微軟正黑體;
+    color: #FFFFFF;
+    font-weight: 900;
+    line-height: 30px;
+}
+#navtitle
+{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 20px;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #4785A9;
+}
+#navtitle
+{
+    margin-bottom: 10px;
+}
+#left ul
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+#left ul li
+{
+    font-family: 微軟正黑體;
+    color: #91A9C8;
+    font-size: 16px;
+    text-indent: 20px;
+    line-height: 25px;
+    list-style-type: square;
+}
+#left ul
+{
+    line-height: 25px;
+}
+#left
+{
+    padding-bottom: 10px;
+}
+#left
+{
+    border: 1px solid #4E98C7;
+}
+#left a
+{
+    text-decoration: none;
+    color: #91A9C8;
+}
+#left li a:hover
+{
+    color: #CC9900;
+    font-size: 18px;
+}
+#nav
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5282A5;
+}
+#nav ul
+{
+    height: 25px;
+    margin:0px;
+}
+#nav ul li
+{
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    height: 25px;
+    font-family: 微軟正黑體;
+    line-height: 25px;
+    border: 1px solid #999999;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #86A9C4;
+    margin-left: 5px;
+}
+
+
+#nav li a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#nav li a:hover
+{
+    font-weight: 900;
+    color: #FFFFFF;
+    background-color: #395B75;
+
+    height: 25px;
+    width: 80px;
+    display: block;
+}
+#title
+{
+    width: 1000px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: 微軟正黑體;
+
+    margin:0px auto;
+}
+
+#title
+{
+    text-align: right;
+    padding-bottom: 5px;
+    font-weight: 900;
+}
+#body
+{
+    background-color: #FFFFFF;
+    box-shadow:5px 5px 5px #CCCCCC;
+}
+#footer
+{
+    margin-top: 10px;
+}
+#nav ul
+{
+    margin: 0px;
+}
+#nav
+{
+    padding-left: 20px;
+}
+

@@ -1,0 +1,53 @@
+﻿body {
+}
+.style1
+{
+    margin:0px auto;
+}
+.title
+{
+    font-family: 微軟正黑體;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #6383BA;
+    line-height: 35px;
+    text-indent: 20px;
+}
+.form
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    font-size: 16px;
+}
+.title
+{
+    width: 700px;
+}
+.style2
+{
+    text-align: left;
+}
+.style2
+{
+    border: 1px solid #6383BA;
+}
+.form
+{
+    line-height: 30px;
+    font-weight: 900;
+    color: #333333;
+}
+.td
+{
+    width: 550px;
+}
+.l1
+{
+    color: #344C64;
+}
+.style3
+{
+    text-indent: 20px;
+    width: 100px;
+}

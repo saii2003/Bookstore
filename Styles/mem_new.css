@@ -1,0 +1,73 @@
+﻿
+#center1
+{
+
+    width:80%;
+    margin:40px auto;
+
+}
+#center2
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    width:80%; 
+    
+}
+#newcenter
+{
+    font-family:@微軟正黑體;
+    padding:0px 0px 20px 80px;
+    font-size:20px;
+    font-weight:900;
+    color:#666666;
+  ;
+}
+.right
+{
+    width: 800px;
+    line-height: 40px;
+}
+.left
+{
+    text-align: right;
+}
+
+
+#centerOK
+{
+    font-family: 微軟正黑體;
+    color: #6666FF;
+    text-align: center;
+}
+#centerOK
+{
+    color: #FF9999;
+    padding:50px 0px;
+    margin:0px auto;
+}
+.right
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.style1
+{
+    width: 100%;
+}
+
+.right
+{
+    padding:10px 0px 10px 10px;
+}
+.sex
+{
+    float: left;
+}
+
+td.style3,td.style5
+{
+    text-align:right;
+    width: 20%;
+    padding:20px 10px 20px 0px;
+    font-size:14px;
+}

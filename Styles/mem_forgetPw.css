@@ -1,0 +1,54 @@
+﻿body {
+}
+#content1
+{
+    
+     width: 700px;
+     margin:0px auto;
+      border: 1px solid #666666;
+      margin-top:30px;
+    margin-bottom:30px;
+}
+.title
+{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #929CC9;
+    line-height: 30px;
+    text-align: center;
+}
+td
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    line-height: 40px;
+    text-align: right;
+}
+.right
+{
+    text-align: left;
+    text-indent: 10px;
+}
+.footer
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    text-align: center;
+}
+.footer
+{
+    font-family: 微軟正黑體;
+}
+#center1
+{
+    font-family: 微軟正黑體;
+    color: #FF9999;
+}
+#center1
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

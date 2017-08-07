@@ -1,0 +1,170 @@
+﻿body {
+}
+#content01,#content02title,#content03title
+{
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 20px;
+    background-color: #5E82C6;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#content02,#content03
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    line-height: 30px;
+    text-indent: 20px;
+
+    border: 1px solid #6E90CD;
+    margin-bottom: 20px;
+}
+
+#content03
+{
+    padding-bottom: 10px;
+}
+.grid
+{
+    margin-bottom: 20px;
+    font-family: 微軟正黑體;
+    color: #6291CA;
+    text-align: center;
+}
+.adminadd
+{
+    font-family: 微軟正黑體;
+    color: #333333;
+    margin:0px auto;
+}
+.adminadd
+{
+    line-height: 30px;
+    width: 400px;
+}
+.footer
+{
+    text-align: center;
+}
+.left
+{
+    text-align: right;
+}
+.right
+{
+    text-indent: 10px;
+}
+.girdview1
+{
+    text-align: center;
+}
+.girdview1
+{
+    margin-bottom: 10px;
+}
+.grivew1
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.header
+{
+    background-color: #5A809C;
+    color: #FFFFFF;
+}
+.datalist
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    text-align: center;
+}
+.datalist
+{
+    margin-bottom: 10px;
+}
+.grivew1
+{
+    border: 1px solid #6B8EAA;
+}
+.bookadd
+{
+    font-family: 微軟正黑體;
+    color: #333333;
+    width: 700px;
+    margin:0px auto;
+}
+.style2
+{
+    text-align: right;
+}
+#content02
+{
+    padding-bottom: 10px;
+}
+.style3
+{
+    text-align: right;
+    width: 150px;
+    line-height: 35px;
+}
+.g2
+{
+    text-align: center;
+}
+.g2
+{
+
+}
+.detail
+{
+    font-family: 微軟正黑體;
+    color: #333333;
+    margin-bottom: 10px;
+    margin:0px auto;
+}
+.header1
+{
+    text-align: left;
+}
+.header1
+{
+    text-align: right;
+    width: 150px;
+}
+.style2
+{
+    width: 100px;
+}
+.left
+{
+    text-align: left;
+    padding-left: 10px;
+}
+.grid
+{
+    text-align: left;
+    text-indent: 20px;
+}
+.header10
+{
+    text-align: left;
+    text-indent: 20px;
+    font-family: 微軟正黑體;
+    color: #FFFFFF;
+    background-color: #5E82C6;
+}
+.grid
+{
+    text-align: center;
+}
+.item10
+{
+    text-align: left;
+}

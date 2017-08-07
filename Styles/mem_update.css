@@ -1,0 +1,74 @@
+﻿.title
+{
+    font-family:@微軟正黑體;
+    padding:0px 0px 20px 10px;
+    font-size:20px;
+    font-weight:900;
+    color:#666666;
+}
+#left
+{
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#right
+{
+    float: left;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+.style1
+{
+    width: 80%;
+}
+
+.left
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    text-align: right;
+    padding:15px 10px 15px 0px;
+    width:10%;
+}
+
+td
+{
+    width:70%;
+}
+#rsex td
+{
+    width:40px;
+}
+
+
+.footer
+{
+    text-align: center;
+}
+li.list-group-item a
+{
+    display:block;
+    padding:5px;
+}
+li.list-group-item
+{
+    padding:0px;
+}
+li a.active
+{
+    background-color:Silver;
+    color:White;
+}
+li a
+{
+    color:Black;
+}
+li a:hover
+{
+    text-decoration:none;
+    color:#3175AF;
+}

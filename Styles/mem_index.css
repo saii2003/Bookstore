@@ -1,0 +1,150 @@
+﻿
+#center1
+{
+    margin:40px auto  40px auto;
+  
+    
+}
+#content1,#content2,#content3
+{
+    margin:0px auto;
+    width: 800px;
+    margin-bottom: 10px;
+}
+#content3
+{
+    margin-bottom: 40px;
+}
+#content1
+{
+    color: #FFFFFF;
+    background-color: #6CA9C6;
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-top:20px;
+    margin-bottom:30px;
+    border-radius:4px;
+   
+}
+td
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    text-align: center;
+    line-height: 30px;
+}
+.title
+{
+    background-color: #8B99DA;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-family: 微軟正黑體;
+}
+.title
+{
+    font-size: 18px;
+}
+.style8 a
+{
+    text-decoration: none;
+    color: #213D69;
+    font-weight: 900;
+    font-size: 16px;
+}
+.style8 a:hover
+{
+    font-family: 微軟正黑體;
+
+    font-weight: 900;
+    color: #6699FF;
+}
+.title12
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: #3333CC;
+    text-align: left;
+    font-family: 微軟正黑體;
+    line-height: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #494DD2;
+}
+#centent2title
+{
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    font-weight: 900;
+    color: #3333CC;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.type
+{
+    font-family: 微軟正黑體;
+    color: #FF6666;
+    width: 70px;
+    font-weight: 900;
+}
+.gridtitle a
+{
+    font-family: 微軟正黑體;
+    color: #213D69;
+    text-decoration: none;
+    text-align: left;
+}
+.gridtitle
+{
+    text-align: left;
+    
+}
+.gridtitle a:hover
+{
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    color: #6666FF;
+}
+#centent2title
+{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #494DD2;
+}
+.gridtitle
+{
+    font-weight: 900;
+}
+.date
+{
+    padding-right: 20px;
+}
+.style1
+{
+    width: 800px;
+}
+.style8
+{
+    width: 266px;
+}
+    .grid1
+{
+    width: 670px;
+}
+    .type
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.type
+{
+    font-family: 微軟正黑體;
+    color: #FF5050;
+}
+.date
+{
+    color: #666666;
+    text-align:right;
+    font-family: 微軟正黑體;
+}

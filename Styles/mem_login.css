@@ -1,0 +1,45 @@
+﻿body {
+}
+
+#content1
+{
+    margin-bottom: 30px;
+}
+#login
+{
+    width: 500px;
+    margin:0px auto;
+}
+#login
+{
+    margin-top: 30px;
+    border: 1px solid #666666;
+}
+.logintitle
+{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #98B1CD;
+    color: #FFFFFF;
+    font-weight: 900;
+    text-align: center;
+}
+.loginfooter
+{
+    font-family: 微軟正黑體;
+    color: #333333;
+    text-align: center;
+}
+.loginfooter
+{
+    line-height: 35px;
+    text-align:right;
+}
+
+.logincode
+{
+    font-family: 微軟正黑體;
+    color: #999999;
+    font-size: 14px;
+}

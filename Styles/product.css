@@ -1,0 +1,354 @@
+﻿#left
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+#pcenter
+{
+    width: 900px;
+    float: left;
+    margin-left:20px;
+    margin-right: 10px;
+}
+#right
+{
+    margin-left:10px;
+    float: left;
+    width: 250px;
+}
+#pcenter2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.type
+{
+    font-family: 微軟正黑體;
+    color: #FF5050;
+}
+.title a
+{
+    text-decoration: none;
+    font-family: 微軟正黑體;
+    color: #666666;
+}
+.title
+{
+    width: 350px;
+}
+.date
+{
+    color: #666666;
+    text-align:right;
+    font-family: 微軟正黑體;
+}
+.type
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.title a:hover
+{
+    color: #CC9900;
+}
+
+.datalist
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    text-align: center;
+}
+.datalist a
+{
+    text-decoration: none;
+    color: #666666;
+}
+.datalist a:hover
+{
+    color: #CC9900;
+}
+
+.grid1
+{
+    width: 670px;
+}
+    .datalist
+        {
+            font-size: 16px;
+        }
+        .title
+        {
+
+            text-align: left;
+        }
+.left1title
+{
+    font-family: 微軟正黑體;
+    margin-bottom: 5px;
+}
+.left1title
+{
+    background-color: #5C63B4;
+    
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #666666;
+    font-weight: 900;
+    text-indent: 10px;
+}
+.menu
+{
+    font-family: 微軟正黑體;
+}
+.mainnav
+{
+
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 15px;
+    
+}
+.menu
+{
+    width: 195px;
+    text-align: left;
+}
+.mainnav
+{
+    width: 195px;
+    line-height: 30px;
+}
+#left1,.menu
+{
+    margin:auto 0px;
+}
+#left1,#left2
+{
+    margin-bottom: 10px;
+}
+.mainnav a:hover
+{
+    color: #FFFFFF;
+    display: block;
+    background-color: #6880DD;
+    font-family: 微軟正黑體;
+    font-weight: 900;
+    width: 195px;
+    height: 30px;
+}
+.menu a
+{
+    display: block;
+    width: 195px;
+    height: 30px;
+}
+
+.subnav
+{
+    font-family: 微軟正黑體;
+    color: #666666;
+    text-indent: 30px;
+}
+
+.subnav a
+{
+
+    width: 195px;
+    height: 30px;
+   
+}
+.subnav
+{
+    line-height: 30px;
+}
+
+.ajax__mytab .ajax__tab_inner
+{
+    
+	width:80px;
+	height:30px;
+	margin-right:2px;
+	 font-family: 微軟正黑體;
+            color: #666666;
+            line-height: 30px;
+            text-align: center;
+           background-color: #78A3F1;
+}
+.ajax__mytab .ajax__tab_active .ajax__tab_inner
+{
+
+		background-color:  #6383BA;
+		font-weight: 900;
+	    color: #FFFFFF;
+}
+.ajax__mytab .ajax__tab_body
+{
+
+	padding:20px 30px 10px 30px;
+
+	
+}
+.ajax__mytab .ajax__tab_hover .ajax__tab_inner
+{
+
+	background-color: #78A3F1;
+		font-weight: 900;
+		font-size:18px;
+	    color: #FFFFFF;
+}
+/*ajax_product*/
+.ajax__product .ajax__tab_inner
+{
+	width:80px;
+	height:30px;
+	margin-right:2px;
+	 font-family: 微軟正黑體;
+            color: #FFFFFF;
+            line-height: 30px;
+            text-align: center;
+            background-color: #78A3F1;
+}
+.ajax__product .ajax__tab_body
+{
+	padding:20px 30px 10px 30px;
+	border-style: solid;
+	border-color: #6383BA;
+}
+.ajax__product .ajax__tab_active .ajax__tab_inner
+{
+		background-color:  #6383BA;
+		font-weight: 900;
+	    color: #FFFFFF;
+}
+.ajax__product .ajax__tab_hover .ajax__tab_inner
+{
+		background-color: #78A3F1;
+		font-weight: 900;
+		font-size:18px;
+	    color: #FFFFFF;
+}
+.fromview
+{
+    font-family: 微軟正黑體;
+    width: 800px;
+}
+.image1
+{
+    border: 1px solid #6383BA;
+}
+#pcenter2
+{
+    margin-top: 30px;
+}
+.fromview
+{
+	
+	width: 837px;
+}
+.image
+{
+	width: 250px;
+	margin-right:20px;
+}
+
+  .image1
+        {
+            padding: 10px;
+        }
+
+            
+        .cart
+{
+	text-align: center;
+}
+.cart
+{
+	font-family: 微軟正黑體;
+	font-size: 16px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFF8F4;
+}
+
+            
+        .ajax__product
+        {
+            font-weight: 900;
+        }
+.datalist
+{
+    text-align: center;
+    width: 165px;
+}
+.author
+{
+    font-family: 微軟正黑體;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #6383BA;
+    line-height: 35px;
+    width: 899px;
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+.image1
+{
+    border: 1px solid #6383BA;
+}
+        .message
+        {
+            font-family: 微軟正黑體;
+            color: #333333;
+            width: 850px;
+        }
+        .message1
+        {
+            line-height: 30px;
+            text-indent: 15px;
+            background-color: #E6F2FF;
+        }
+        .messageright
+        {
+            text-align: right;
+            padding-right: 15px;
+            background-color: #E6F2FF;
+        }
+        .message2
+        {
+            padding-left: 15px;
+            line-height: 30px;
+            border-bottom-style: dashed;
+            border-bottom-width: 1px;
+            border-bottom-color: #999999;
+        }
+        .td
+        {
+            text-align: right;
+            width: 850px;
+            margin-bottom: 10px;
+        }
+.新增樣式1
+{
+    color: #FFFFFF;
+    background-color: #6699FF;
+    font-weight: 900;
+    font-family: 微軟正黑體;
+}
+
+.mainnav
+{
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #6C75BE;
+}
+.left1title
+{
+    color: #FFFFFF;
+}
+
+.mainnav
+{
+    color: #333333;
+}

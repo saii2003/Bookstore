@@ -1,0 +1,67 @@
+﻿#center
+{
+    width: 900px;
+    margin: 0px auto;
+    
+}
+#center01
+{
+	width: 900px;
+	margin-bottom: 20px;
+	height:70px;
+	background-image: url('../images/cart2.jpg');
+	
+}
+#center02
+{
+    width:100%;
+
+}
+#center03
+{
+	width:100%;
+	margin:20px 0px 50px 0px;
+
+}
+.paytitle
+{
+    font-family: 微軟正黑體;
+    color: #FFFFFF;
+    padding:8px 0px 8px 0px;
+    background-color: #6383BA;
+    font-size: 18px;
+    font-weight: 900;
+    text-align:left;
+    border-radius:3px;
+	width:100%;
+	text-indent:10px;
+}
+table
+{
+    margin:10px 0px;
+    width:100%;
+}
+
+.style2
+{
+    width: 100px;
+    text-align:right;
+    padding:5px 10px 5px 0px;
+}
+.td
+{
+    text-align: left;
+    padding:5px 10px 5px 0px;
+}
+.td1
+{
+    text-align:left;
+    padding:5px 0px;
+    text-indent:15px;
+    width:6%;
+}
+.td2
+{
+    width:94%;
+    text-align:left;
+}
