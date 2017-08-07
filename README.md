@@ -18,7 +18,7 @@
 - adminDA.cs：管理頁面的的資料存取類別
 - iPayPal.cs：Paypal設類別
 
-<pre><code>### Member</code></pre>
+<pre><code>### 會員頁面</code></pre>
 mem_forgetPW.aspx：忘記密碼頁面		
 mem_forgetPwOK.aspx：密碼成功頁面		
 mem_index.aspx：會員專區頁面			
@@ -33,15 +33,5 @@ mem_orderSel.aspx：查詢訂單頁面
 mem_update.aspx：修改會員資料頁面			
 mem_updateOK.aspx：修改成功頁面
 
-<pre><code>### 管理者頁面/admin</code></pre>		
-OrderSel.aspx	：訂單		
-add.aspx：			
-adminSel.aspx：			
-bookadd.aspx：		
-bookinquire.aspx：			
-login.aspx：			
-mem.aspx：			
-message.aspx：			
-messageSel.aspx：			
-index.aspx：		
+<pre><code>### 書籍頁面</code></pre>	
 
