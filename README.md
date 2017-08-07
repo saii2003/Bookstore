@@ -18,20 +18,40 @@
 - adminDA.cs：管理頁面的的資料存取類別
 - iPayPal.cs：Paypal設類別
 
-<pre><code>### 會員頁面</code></pre>
-mem_forgetPW.aspx：忘記密碼頁面		
-mem_forgetPwOK.aspx：密碼成功頁面		
-mem_index.aspx：會員專區頁面			
-mem_login.aspx：登入頁面			
-mem_modifyPw.aspx：修改密碼頁面	
-mem_modifyPwOK.aspx：修改密碼成功頁面	
-mem_new.aspx：加入會員頁面			
-mem_newOK.aspx：成功頁面			
-mem_open.aspx：會員驗證頁面			
-mem_orderDel.aspx：會員訂單頁面		
-mem_orderSel.aspx：查詢訂單頁面			
-mem_update.aspx：修改會員資料頁面			
-mem_updateOK.aspx：修改成功頁面
+<pre><code>### Member</code></pre>
+- mem_forgetPW.aspx：忘記密碼頁面		
+- mem_forgetPwOK.aspx：密碼成功頁面		
+- mem_index.aspx：會員專區頁面			
+- mem_login.aspx：登入頁面			
+- mem_modifyPw.aspx：修改密碼頁面	
+- mem_modifyPwOK.aspx：修改密碼成功頁面	
+- mem_new.aspx：加入會員頁面			
+- mem_newOK.aspx：成功頁面			
+- mem_open.aspx：會員驗證頁面			
+- mem_orderDel.aspx：會員訂單頁面		
+- mem_orderSel.aspx：查詢訂單頁面			
+- mem_update.aspx：修改會員資料頁面			
+- mem_updateOK.aspx：修改成功頁面
+
+<pre><code>### admin/管理者</code></pre>		
+- OrderSel.aspx：訂單查詢	
+- add.aspx：新增書籍			
+- adminSel.aspx：管理者查詢			
+- bookadd.aspx：新增書籍		
+- bookinquire.aspx：書籍查詢			
+- login.aspx：登入			
+- mem.aspx：會員資料			
+- message.aspx：新增訊息			
+- messageSel.aspx：訊息查詢			
+- index.aspx：首頁
 
 <pre><code>### 書籍頁面</code></pre>	
+- book_list.aspx：書籍清單
+- confirm.aspx：確認頁面
+- index.aspx：首頁
+- message.aspx：訊息頁面
+- payment_info.aspx：支付驗面
+- pro_search.aspx：書籍查詢
+- product.aspx：書籍頁面	
+- shop_cart.aspx：購物車
 
