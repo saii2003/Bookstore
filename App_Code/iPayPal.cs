@@ -21,7 +21,7 @@ using DataAccess;
 /// </summary>
 public class iPayPal
 {
-	private string businessEmail;//賣家帳號
+    private string businessEmail;//賣家帳號
     private bool useSandbox; //是否啟動PayPal Sandbox
 
     public iPayPal()
@@ -31,7 +31,7 @@ public class iPayPal
 
     }
     #region 取得PayPal網址
-	/* useSandbox = true 取得PayPal sandbox測試驗面，為false 取得正式PayPal頁面 */
+    /* useSandbox = true 取得PayPal sandbox測試驗面，為false 取得正式PayPal頁面 */
     private string GetPayPalUrl()
     {
         return useSandbox ? "https://www.sandbox.paypal.com/cgi-bin/webscr" :
@@ -66,9 +66,9 @@ public class iPayPal
     }
     #endregion
 
-	/* PayPal IPN 及時付款通知設定
-	當user付完款項後PayPal IPN會回傳自訂屬性"oid"訂單編號，
-	並比對資料庫欄位將欄位修改為"已付款" */
+    /* PayPal IPN 及時付款通知設定
+    當user付完款項後PayPal IPN會回傳自訂屬性"oid"訂單編號，
+    並比對資料庫欄位將欄位修改為"已付款" */
 
     #region PayPal_IPN
     public void PayPal_IPN()
@@ -76,7 +76,7 @@ public class iPayPal
         //傳送資訊至PayPal伺服器
         HttpWebRequest req = (HttpWebRequest)WebRequest.Create(GetPayPalUrl());
 
-		//設定要請求的資料
+        //設定要請求的資料
         req.Method = "POST";//以POST方式傳送資料
         req.ContentType = "application/x-www-form-urlencoded";//以x-www-form-urlencoded的編碼方式把form轉換成字串
         System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;//加入Tls12安全協定	
@@ -89,28 +89,30 @@ public class iPayPal
         StreamWriter streamOut = new StreamWriter(req.GetRequestStream(), System.Text.Encoding.ASCII);//以ASCII編碼方式將req變數資料寫入資料流
         streamOut.Write(strRequest);
         streamOut.Close();
-		//取得PayPal回傳的資訊
+        //取得PayPal回傳的資訊
         StreamReader streamIn = new StreamReader(req.GetResponse().GetResponseStream());
         string strResponse = streamIn.ReadToEnd();
         streamIn.Close();
         
         /* PayPal回傳的訂單資訊 
-		string item_name = HttpContext.Current.Request.Form["item_name"];
-		string item_number = HttpContext.Current.Request.Form["item_number"];
-		string payment_amount = HttpContext.Current.Request.Form["mc_gross"];
-		string payment_currency = HttpContext.Current.Request.Form["mc_currency"];
-		string txn_id = HttpContext.Current.Request.Form["txn_id"];
-		string receipt_id = HttpContext.Current.Request.Form["receipt_id"];
-		string receiver_email = HttpContext.Current.Request.Form["receiver_email"];
-		string payer_email = HttpContext.Current.Request.Form["payer_email"];
-		string fee = HttpContext.Current.Request.Form["payment_fee"];  */
+        string item_name = HttpContext.Current.Request.Form["item_name"];
+        string item_number = HttpContext.Current.Request.Form["item_number"];
+        string payment_amount = HttpContext.Current.Request.Form["mc_gross"];
+        string payment_currency = HttpContext.Current.Request.Form["mc_currency"];
+        string txn_id = HttpContext.Current.Request.Form["txn_id"];
+        string receipt_id = HttpContext.Current.Request.Form["receipt_id"];
+        string receiver_email = HttpContext.Current.Request.Form["receiver_email"];
+        string payer_email = HttpContext.Current.Request.Form["payer_email"];
+        string fee = HttpContext.Current.Request.Form["payment_fee"];  
+        */
 
         string payment_status = HttpContext.Current.Request.Form["payment_status"].ToString();//支付狀態
         string oid = HttpContext.Current.Request.Form["custom"];//訂單編號
 		
-		/* strResponse == "VERIFIED" 代表驗證成功，就會進行付款狀態比對
-		payment_status == "Completed" 表示是已經完成付款的動作，系統
-		就會將IPN所回傳oid訂單編號進行資料庫比對，將欄位改為"已付款" */
+        /* strResponse == "VERIFIED" 代表驗證成功，就會進行付款狀態比對
+        payment_status == "Completed" 表示是已經完成付款的動作，系統
+        就會將IPN所回傳oid訂單編號進行資料庫比對，將欄位改為"已付款" 
+        */
 		
         if (strResponse == "VERIFIED")//驗證成功
         {
