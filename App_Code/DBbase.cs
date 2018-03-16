@@ -9,6 +9,9 @@ using System.Web;
 
 namespace DataAccess
 {
+	/// <summary>
+	/// 資料庫基本連線設定
+	/// </summary>
     public class DBbase
     {
         private SqlConnection publicConnection = null;//公用連線
@@ -31,8 +34,8 @@ namespace DataAccess
             return cmd;
 
         }
-
-        public void Dispose()//關閉連線
+		//釋放連線資源
+        public void Dispose()
         {
             if (publicConnection.State == ConnectionState.Open)
             {
