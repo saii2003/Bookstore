@@ -17,7 +17,7 @@ using DataAccess;
 
 
 /// <summary>
-/// PayPal 金流串接 
+/// PayPal 金流串接
 /// </summary>
 public class iPayPal
 {
@@ -60,12 +60,16 @@ public class iPayPal
 		
 		//購買成功及取消購買Url導向
         builder.AppendFormat("&return={0}&cancel_return={1}", HttpUtility.UrlEncode(returnUrl), HttpUtility.UrlEncode(cancel_returnUrl));
-        builder.AppendFormat("&notify_url=http://ethanlun.somee.com/BookStore/paypal_ipn.aspx"); //發送PayPal_IPN
+		//發送PayPal IPN
+        builder.AppendFormat("&notify_url={0}", HttpContext.Current.Request.ServerVariables["Server_Name"] + "/BookStore/paypal_ipn.aspx"); 
         HttpContext.Current.Response.Redirect(builder.ToString());//導向連結
     }
     #endregion
 
-	/*即時付款通知訊息,當user付完款項後PayPal會發送IPN回傳自訂屬性oid訂單編號*/
+	/* PayPal IPN 及時付款通知設定
+	當user付完款項後PayPal IPN會回傳自訂屬性"oid"訂單編號，
+	並比對資料庫欄位將欄位修改為"已付款" */
+
     #region PayPal_IPN
     public void PayPal_IPN()
     {
@@ -90,27 +94,24 @@ public class iPayPal
         string strResponse = streamIn.ReadToEnd();
         streamIn.Close();
         
-        /* 
-			PayPal 回傳的訂單資訊 
-			string item_name = HttpContext.Current.Request.Form["item_name"];
-			string item_number = HttpContext.Current.Request.Form["item_number"];
-			string payment_amount = HttpContext.Current.Request.Form["mc_gross"];
-			string payment_currency = HttpContext.Current.Request.Form["mc_currency"];
-			string txn_id = HttpContext.Current.Request.Form["txn_id"];
-			string receipt_id = HttpContext.Current.Request.Form["receipt_id"];
-			string receiver_email = HttpContext.Current.Request.Form["receiver_email"];
-			string payer_email = HttpContext.Current.Request.Form["payer_email"];
-			string fee = HttpContext.Current.Request.Form["payment_fee"]; 
-		*/
+        /* PayPal回傳的訂單資訊 
+		string item_name = HttpContext.Current.Request.Form["item_name"];
+		string item_number = HttpContext.Current.Request.Form["item_number"];
+		string payment_amount = HttpContext.Current.Request.Form["mc_gross"];
+		string payment_currency = HttpContext.Current.Request.Form["mc_currency"];
+		string txn_id = HttpContext.Current.Request.Form["txn_id"];
+		string receipt_id = HttpContext.Current.Request.Form["receipt_id"];
+		string receiver_email = HttpContext.Current.Request.Form["receiver_email"];
+		string payer_email = HttpContext.Current.Request.Form["payer_email"];
+		string fee = HttpContext.Current.Request.Form["payment_fee"];  */
 
         string payment_status = HttpContext.Current.Request.Form["payment_status"].ToString();//支付狀態
         string oid = HttpContext.Current.Request.Form["custom"];//訂單編號
 		
-		/*
-			strResponse == "VERIFIED" 代表驗證成功，就會進行付款狀態比對
-			payment_status == "Completed" 表示是已經完成付款的動作，系統
-			就會將IPN所回傳oid訂單編號進行資料庫比對，將欄位改為"已付款"
-		*/
+		/* strResponse == "VERIFIED" 代表驗證成功，就會進行付款狀態比對
+		payment_status == "Completed" 表示是已經完成付款的動作，系統
+		就會將IPN所回傳oid訂單編號進行資料庫比對，將欄位改為"已付款" */
+		
         if (strResponse == "VERIFIED")//驗證成功
         {
             //付款成功
