@@ -58,9 +58,9 @@ public class iPayPal
             builder.AppendFormat("&quantity_{0}={1}", (i + 1).ToString(), HttpUtility.UrlEncode(grid.Rows[i].Cells[3].Text));//數量
         }
 		
-		//購買成功及取消購買Url導向
+        //購買成功及取消購買Url導向
         builder.AppendFormat("&return={0}&cancel_return={1}", HttpUtility.UrlEncode(returnUrl), HttpUtility.UrlEncode(cancel_returnUrl));
-		//發送PayPal IPN
+        //發送PayPal IPN
         builder.AppendFormat("&notify_url={0}", HttpContext.Current.Request.ServerVariables["Server_Name"] + "/BookStore/paypal_ipn.aspx"); 
         HttpContext.Current.Response.Redirect(builder.ToString());//導向連結
     }
